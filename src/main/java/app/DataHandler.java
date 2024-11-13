@@ -5,7 +5,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class DataHandler {
 
-    Map<Integer, String> map = new DataRepository().getData();
+    private Map<Integer, String> map = new DataRepository().getData();
 
     public String getAll() {
         StringBuilder sb = new StringBuilder();
